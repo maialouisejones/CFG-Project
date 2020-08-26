@@ -1,0 +1,31 @@
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+
+}
+.column1 {
+    float: middle;
+    border:   1px dashed pink;
+    text-align: center;
+    padding: 6px;
+    
+}
+
+.column2 {
+    float: middle;
+    border:   1px dashed pink;
+    text-align: center;
+    padding: 6px;
+}
+
+.column3 {
+    float: right;
+    border:   1px dashed pink;
+    text-align: center;
+    flex-shrink: 5; 
+    padding: 6px;
+}
